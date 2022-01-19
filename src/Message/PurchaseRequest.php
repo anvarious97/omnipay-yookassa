@@ -46,6 +46,7 @@ class PurchaseRequest extends AbstractRequest
                     'type' => 'redirect',
                     'return_url' => $data['return_url'],
                 ],
+                'capture' => true,
                 'metadata' => [
                     'transactionId' => $data['transactionId'],
                 ],
